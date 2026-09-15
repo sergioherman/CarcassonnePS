@@ -1,8 +1,12 @@
 class Tile:
-    def __init__(self, tile_id, image_path, layout):
+    def __init__(
+        self, tile_id, image_path, layout, has_shield=False, has_monastery=False
+    ):
         self.tile_id = tile_id
         self.image_path = image_path
         self.layout = layout  # matriz 5x5
+        self.has_shield = has_shield
+        self.has_monastery = has_monastery
         self.rotation = 0
 
     def rotate_clockwise(self):
