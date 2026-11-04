@@ -7,3 +7,7 @@ __pycache__/
 
 # Arquivos do VS Code
 .vscode/
+
+# Executável gerado pelo PyInstaller
+build/
+dist/
